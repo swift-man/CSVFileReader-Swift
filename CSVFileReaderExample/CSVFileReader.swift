@@ -55,8 +55,16 @@ public final class CSVFileReader {
       let dataEncoded = String(data: data, encoding: encoding)
     else { throw CSVFileReaderError.invalidDataEncoding }
     
-    var dimensionalStringArray = dataEncoded.components(separatedBy: "\n")
+    let separator: String
+    if dataEncoded.last == "\r\n" {
+      separator = "\r\n"
+    } else {
+      separator = "\n"
+    }
+    
+    var dimensionalStringArray = dataEncoded.components(separatedBy: separator)
       .map { $0.components(separatedBy: ",") }
+      
     if !hasHeaderRow {
       if !dimensionalStringArray.isEmpty {
         dimensionalStringArray.remove(at: 0)

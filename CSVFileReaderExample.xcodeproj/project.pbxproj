@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5F501392960B03B0010DB3B /* CSVFileReader.docc in Sources */ = {isa = PBXBuildFile; fileRef = E5F501382960B03B0010DB3B /* CSVFileReader.docc */; };
-		E5F5013F2960B03B0010DB3B /* CSVFileReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F501342960B03B0010DB3B /* CSVFileReader.framework */; };
-		E5F501442960B03B0010DB3B /* CSVFileReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501432960B03B0010DB3B /* CSVFileReaderTests.swift */; };
-		E5F501452960B03B0010DB3B /* CSVFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F501372960B03B0010DB3B /* CSVFileReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F501392960B03B0010DB3B /* CSVFileReaderExample.docc in Sources */ = {isa = PBXBuildFile; fileRef = E5F501382960B03B0010DB3B /* CSVFileReaderExample.docc */; };
+		E5F5013F2960B03B0010DB3B /* CSVFileReaderExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F501342960B03B0010DB3B /* CSVFileReaderExample.framework */; };
+		E5F501442960B03B0010DB3B /* CSVFileReaderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501432960B03B0010DB3B /* CSVFileReaderExampleTests.swift */; };
+		E5F501452960B03B0010DB3B /* CSVFileReaderExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F501372960B03B0010DB3B /* CSVFileReaderExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5F5014F2960B0450010DB3B /* CSVFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5014E2960B0450010DB3B /* CSVFileReader.swift */; };
 		E5F501512960B0640010DB3B /* CSVFileReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501502960B0640010DB3B /* CSVFileReaderError.swift */; };
+		E5F501532960B3B90010DB3B /* NIADic.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501522960B3B90010DB3B /* NIADic.csv */; };
+		E5F501542960B3B90010DB3B /* NIADic.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501522960B3B90010DB3B /* NIADic.csv */; };
+		E5F501572960B3D60010DB3B /* NIADicDecodeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501552960B3D60010DB3B /* NIADicDecodeSample.swift */; };
+		E5F501582960B4100010DB3B /* CSVFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5014E2960B0450010DB3B /* CSVFileReader.swift */; };
+		E5F501592960B4130010DB3B /* CSVFileReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501502960B0640010DB3B /* CSVFileReaderError.swift */; };
+		E5F5015E2960B49F0010DB3B /* Number.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F5015D2960B49E0010DB3B /* Number.csv */; };
+		E5F5015F2960B49F0010DB3B /* Number.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F5015D2960B49E0010DB3B /* Number.csv */; };
+		E5F501612960B4AA0010DB3B /* Empty.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501602960B4AA0010DB3B /* Empty.csv */; };
+		E5F501622960B4AA0010DB3B /* Empty.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501602960B4AA0010DB3B /* Empty.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E5F501342960B03B0010DB3B /* CSVFileReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVFileReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5F501372960B03B0010DB3B /* CSVFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVFileReader.h; sourceTree = "<group>"; };
-		E5F501382960B03B0010DB3B /* CSVFileReader.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CSVFileReader.docc; sourceTree = "<group>"; };
-		E5F5013E2960B03B0010DB3B /* CSVFileReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVFileReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5F501432960B03B0010DB3B /* CSVFileReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReaderTests.swift; sourceTree = "<group>"; };
+		E5F501342960B03B0010DB3B /* CSVFileReaderExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVFileReaderExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F501372960B03B0010DB3B /* CSVFileReaderExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVFileReaderExample.h; sourceTree = "<group>"; };
+		E5F501382960B03B0010DB3B /* CSVFileReaderExample.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CSVFileReaderExample.docc; sourceTree = "<group>"; };
+		E5F5013E2960B03B0010DB3B /* CSVFileReaderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVFileReaderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F501432960B03B0010DB3B /* CSVFileReaderExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReaderExampleTests.swift; sourceTree = "<group>"; };
 		E5F5014E2960B0450010DB3B /* CSVFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReader.swift; sourceTree = "<group>"; };
 		E5F501502960B0640010DB3B /* CSVFileReaderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReaderError.swift; sourceTree = "<group>"; };
+		E5F501522960B3B90010DB3B /* NIADic.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NIADic.csv; sourceTree = "<group>"; };
+		E5F501552960B3D60010DB3B /* NIADicDecodeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIADicDecodeSample.swift; sourceTree = "<group>"; };
+		E5F5015D2960B49E0010DB3B /* Number.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Number.csv; sourceTree = "<group>"; };
+		E5F501602960B4AA0010DB3B /* Empty.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Empty.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F5013F2960B03B0010DB3B /* CSVFileReader.framework in Frameworks */,
+				E5F5013F2960B03B0010DB3B /* CSVFileReaderExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +70,8 @@
 		E5F5012A2960B03B0010DB3B = {
 			isa = PBXGroup;
 			children = (
-				E5F501362960B03B0010DB3B /* CSVFileReader */,
-				E5F501422960B03B0010DB3B /* CSVFileReaderTests */,
+				E5F501362960B03B0010DB3B /* CSVFileReaderExample */,
+				E5F501422960B03B0010DB3B /* CSVFileReaderExampleTests */,
 				E5F501352960B03B0010DB3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,29 +79,33 @@
 		E5F501352960B03B0010DB3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5F501342960B03B0010DB3B /* CSVFileReader.framework */,
-				E5F5013E2960B03B0010DB3B /* CSVFileReaderTests.xctest */,
+				E5F501342960B03B0010DB3B /* CSVFileReaderExample.framework */,
+				E5F5013E2960B03B0010DB3B /* CSVFileReaderExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5F501362960B03B0010DB3B /* CSVFileReader */ = {
+		E5F501362960B03B0010DB3B /* CSVFileReaderExample */ = {
 			isa = PBXGroup;
 			children = (
-				E5F501372960B03B0010DB3B /* CSVFileReader.h */,
+				E5F501372960B03B0010DB3B /* CSVFileReaderExample.h */,
 				E5F5014E2960B0450010DB3B /* CSVFileReader.swift */,
 				E5F501502960B0640010DB3B /* CSVFileReaderError.swift */,
-				E5F501382960B03B0010DB3B /* CSVFileReader.docc */,
+				E5F501522960B3B90010DB3B /* NIADic.csv */,
+				E5F5015D2960B49E0010DB3B /* Number.csv */,
+				E5F501602960B4AA0010DB3B /* Empty.csv */,
+				E5F501382960B03B0010DB3B /* CSVFileReaderExample.docc */,
 			);
-			path = CSVFileReader;
+			path = CSVFileReaderExample;
 			sourceTree = "<group>";
 		};
-		E5F501422960B03B0010DB3B /* CSVFileReaderTests */ = {
+		E5F501422960B03B0010DB3B /* CSVFileReaderExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				E5F501432960B03B0010DB3B /* CSVFileReaderTests.swift */,
+				E5F501432960B03B0010DB3B /* CSVFileReaderExampleTests.swift */,
+				E5F501552960B3D60010DB3B /* NIADicDecodeSample.swift */,
 			);
-			path = CSVFileReaderTests;
+			path = CSVFileReaderExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,16 +115,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F501452960B03B0010DB3B /* CSVFileReader.h in Headers */,
+				E5F501452960B03B0010DB3B /* CSVFileReaderExample.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E5F501332960B03B0010DB3B /* CSVFileReader */ = {
+		E5F501332960B03B0010DB3B /* CSVFileReaderExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5F501482960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReader" */;
+			buildConfigurationList = E5F501482960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReaderExample" */;
 			buildPhases = (
 				E5F5012F2960B03B0010DB3B /* Headers */,
 				E5F501302960B03B0010DB3B /* Sources */,
@@ -118,14 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = CSVFileReader;
+			name = CSVFileReaderExample;
 			productName = CSVFileReader;
-			productReference = E5F501342960B03B0010DB3B /* CSVFileReader.framework */;
+			productReference = E5F501342960B03B0010DB3B /* CSVFileReaderExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E5F5013D2960B03B0010DB3B /* CSVFileReaderTests */ = {
+		E5F5013D2960B03B0010DB3B /* CSVFileReaderExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5F5014B2960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReaderTests" */;
+			buildConfigurationList = E5F5014B2960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReaderExampleTests" */;
 			buildPhases = (
 				E5F5013A2960B03B0010DB3B /* Sources */,
 				E5F5013B2960B03B0010DB3B /* Frameworks */,
@@ -136,9 +153,9 @@
 			dependencies = (
 				E5F501412960B03B0010DB3B /* PBXTargetDependency */,
 			);
-			name = CSVFileReaderTests;
+			name = CSVFileReaderExampleTests;
 			productName = CSVFileReaderTests;
-			productReference = E5F5013E2960B03B0010DB3B /* CSVFileReaderTests.xctest */;
+			productReference = E5F5013E2960B03B0010DB3B /* CSVFileReaderExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5F5012E2960B03B0010DB3B /* Build configuration list for PBXProject "CSVFileReader" */;
+			buildConfigurationList = E5F5012E2960B03B0010DB3B /* Build configuration list for PBXProject "CSVFileReaderExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5F501332960B03B0010DB3B /* CSVFileReader */,
-				E5F5013D2960B03B0010DB3B /* CSVFileReaderTests */,
+				E5F501332960B03B0010DB3B /* CSVFileReaderExample */,
+				E5F5013D2960B03B0010DB3B /* CSVFileReaderExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F501612960B4AA0010DB3B /* Empty.csv in Resources */,
+				E5F5015E2960B49F0010DB3B /* Number.csv in Resources */,
+				E5F501532960B3B90010DB3B /* NIADic.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F501622960B4AA0010DB3B /* Empty.csv in Resources */,
+				E5F5015F2960B49F0010DB3B /* Number.csv in Resources */,
+				E5F501542960B3B90010DB3B /* NIADic.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F501392960B03B0010DB3B /* CSVFileReader.docc in Sources */,
+				E5F501392960B03B0010DB3B /* CSVFileReaderExample.docc in Sources */,
 				E5F501512960B0640010DB3B /* CSVFileReaderError.swift in Sources */,
 				E5F5014F2960B0450010DB3B /* CSVFileReader.swift in Sources */,
 			);
@@ -210,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F501442960B03B0010DB3B /* CSVFileReaderTests.swift in Sources */,
+				E5F501592960B4130010DB3B /* CSVFileReaderError.swift in Sources */,
+				E5F501442960B03B0010DB3B /* CSVFileReaderExampleTests.swift in Sources */,
+				E5F501582960B4100010DB3B /* CSVFileReader.swift in Sources */,
+				E5F501572960B3D60010DB3B /* NIADicDecodeSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +245,7 @@
 /* Begin PBXTargetDependency section */
 		E5F501412960B03B0010DB3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5F501332960B03B0010DB3B /* CSVFileReader */;
+			target = E5F501332960B03B0010DB3B /* CSVFileReaderExample */;
 			targetProxy = E5F501402960B03B0010DB3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5F5012E2960B03B0010DB3B /* Build configuration list for PBXProject "CSVFileReader" */ = {
+		E5F5012E2960B03B0010DB3B /* Build configuration list for PBXProject "CSVFileReaderExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5F501462960B03B0010DB3B /* Debug */,
@@ -460,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5F501482960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReader" */ = {
+		E5F501482960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReaderExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5F501492960B03B0010DB3B /* Debug */,
@@ -469,7 +495,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5F5014B2960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReaderTests" */ = {
+		E5F5014B2960B03B0010DB3B /* Build configuration list for PBXNativeTarget "CSVFileReaderExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5F5014C2960B03B0010DB3B /* Debug */,
