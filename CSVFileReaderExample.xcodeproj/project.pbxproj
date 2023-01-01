@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E572820F2961A77F00146E77 /* CSVFileReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572820D2961A77F00146E77 /* CSVFileReaderError.swift */; };
+		E57282102961A77F00146E77 /* CSVFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572820E2961A77F00146E77 /* CSVFileReader.swift */; };
 		E5F501392960B03B0010DB3B /* CSVFileReaderExample.docc in Sources */ = {isa = PBXBuildFile; fileRef = E5F501382960B03B0010DB3B /* CSVFileReaderExample.docc */; };
 		E5F5013F2960B03B0010DB3B /* CSVFileReaderExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F501342960B03B0010DB3B /* CSVFileReaderExample.framework */; };
 		E5F501442960B03B0010DB3B /* CSVFileReaderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501432960B03B0010DB3B /* CSVFileReaderExampleTests.swift */; };
 		E5F501452960B03B0010DB3B /* CSVFileReaderExample.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F501372960B03B0010DB3B /* CSVFileReaderExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5F5014F2960B0450010DB3B /* CSVFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5014E2960B0450010DB3B /* CSVFileReader.swift */; };
-		E5F501512960B0640010DB3B /* CSVFileReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501502960B0640010DB3B /* CSVFileReaderError.swift */; };
 		E5F501532960B3B90010DB3B /* NIADic.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501522960B3B90010DB3B /* NIADic.csv */; };
 		E5F501542960B3B90010DB3B /* NIADic.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501522960B3B90010DB3B /* NIADic.csv */; };
 		E5F501572960B3D60010DB3B /* NIADicDecodeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501552960B3D60010DB3B /* NIADicDecodeSample.swift */; };
-		E5F501582960B4100010DB3B /* CSVFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5014E2960B0450010DB3B /* CSVFileReader.swift */; };
-		E5F501592960B4130010DB3B /* CSVFileReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F501502960B0640010DB3B /* CSVFileReaderError.swift */; };
 		E5F5015E2960B49F0010DB3B /* Number.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F5015D2960B49E0010DB3B /* Number.csv */; };
 		E5F5015F2960B49F0010DB3B /* Number.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F5015D2960B49E0010DB3B /* Number.csv */; };
 		E5F501612960B4AA0010DB3B /* Empty.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5F501602960B4AA0010DB3B /* Empty.csv */; };
@@ -35,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E572820D2961A77F00146E77 /* CSVFileReaderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSVFileReaderError.swift; path = "Sources/CSVFileReader-Swift/CSVFileReaderError.swift"; sourceTree = SOURCE_ROOT; };
+		E572820E2961A77F00146E77 /* CSVFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSVFileReader.swift; path = "Sources/CSVFileReader-Swift/CSVFileReader.swift"; sourceTree = SOURCE_ROOT; };
 		E5F501342960B03B0010DB3B /* CSVFileReaderExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVFileReaderExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F501372960B03B0010DB3B /* CSVFileReaderExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVFileReaderExample.h; sourceTree = "<group>"; };
 		E5F501382960B03B0010DB3B /* CSVFileReaderExample.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CSVFileReaderExample.docc; sourceTree = "<group>"; };
 		E5F5013E2960B03B0010DB3B /* CSVFileReaderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSVFileReaderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F501432960B03B0010DB3B /* CSVFileReaderExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReaderExampleTests.swift; sourceTree = "<group>"; };
-		E5F5014E2960B0450010DB3B /* CSVFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReader.swift; sourceTree = "<group>"; };
-		E5F501502960B0640010DB3B /* CSVFileReaderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReaderError.swift; sourceTree = "<group>"; };
 		E5F501522960B3B90010DB3B /* NIADic.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NIADic.csv; sourceTree = "<group>"; };
 		E5F501552960B3D60010DB3B /* NIADicDecodeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIADicDecodeSample.swift; sourceTree = "<group>"; };
 		E5F5015D2960B49E0010DB3B /* Number.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Number.csv; sourceTree = "<group>"; };
@@ -89,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				E5F501372960B03B0010DB3B /* CSVFileReaderExample.h */,
-				E5F5014E2960B0450010DB3B /* CSVFileReader.swift */,
-				E5F501502960B0640010DB3B /* CSVFileReaderError.swift */,
+				E572820E2961A77F00146E77 /* CSVFileReader.swift */,
+				E572820D2961A77F00146E77 /* CSVFileReaderError.swift */,
 				E5F501522960B3B90010DB3B /* NIADic.csv */,
 				E5F5015D2960B49E0010DB3B /* Number.csv */,
 				E5F501602960B4AA0010DB3B /* Empty.csv */,
@@ -223,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E572820F2961A77F00146E77 /* CSVFileReaderError.swift in Sources */,
+				E57282102961A77F00146E77 /* CSVFileReader.swift in Sources */,
 				E5F501392960B03B0010DB3B /* CSVFileReaderExample.docc in Sources */,
-				E5F501512960B0640010DB3B /* CSVFileReaderError.swift in Sources */,
-				E5F5014F2960B0450010DB3B /* CSVFileReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,9 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F501592960B4130010DB3B /* CSVFileReaderError.swift in Sources */,
 				E5F501442960B03B0010DB3B /* CSVFileReaderExampleTests.swift in Sources */,
-				E5F501582960B4100010DB3B /* CSVFileReader.swift in Sources */,
 				E5F501572960B3D60010DB3B /* NIADicDecodeSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
